@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "linevault"
+version = "0.1.0"
+description = "A cli encryption tool that allows for line-by-line encryption"
+authors = ["jhands0 <jamie_hands@yahoo.co.uk>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
